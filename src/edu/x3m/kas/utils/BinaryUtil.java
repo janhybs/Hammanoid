@@ -19,25 +19,6 @@ public class BinaryUtil {
     }
 
 
-
-    public static void print (int b) {
-        System.out.println (format (b));
-    }
-
-
-
-    public static void print (int b, String msg) {
-        System.out.println (msg + ": " + format (b));
-    }
-
-
-
-    public static void print (int b, int n) {
-        System.out.println (format (b, n));
-    }
-
-
-
     public static String format (int b) {
         return format (b, 13);
     }
